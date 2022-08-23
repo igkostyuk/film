@@ -1,0 +1,5 @@
+.dockerignore
+.gitgnore
+Makefile
+README.md
+pgdata/
