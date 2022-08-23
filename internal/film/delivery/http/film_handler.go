@@ -8,7 +8,7 @@ import (
 
 	"github.com/labstack/echo/v4"
 
-	"test/internal/models"
+	"github.com/igkostyuk/film/internal/models"
 )
 
 // ResponseError represent the reseponse error struct

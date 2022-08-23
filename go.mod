@@ -1,4 +1,4 @@
-module test
+module github.com/igkostyuk/film
 
 go 1.18
 

@@ -9,14 +9,14 @@ import (
 	"github.com/labstack/echo/v4/middleware"
 	"go.uber.org/zap"
 
-	"test/pkg/memory"
-	"test/pkg/postgres"
-	"test/pkg/redis"
+	"github.com/igkostyuk/film/pkg/memory"
+	"github.com/igkostyuk/film/pkg/postgres"
+	"github.com/igkostyuk/film/pkg/redis"
 
-	"test/internal/config"
-	filmDelivery "test/internal/film/delivery/http"
-	filmRepo "test/internal/film/repository"
-	filmUCase "test/internal/film/usecase"
+	"github.com/igkostyuk/film/internal/config"
+	filmDelivery "github.com/igkostyuk/film/internal/film/delivery/http"
+	filmRepo "github.com/igkostyuk/film/internal/film/repository"
+	filmUCase "github.com/igkostyuk/film/internal/film/usecase"
 )
 
 func main() {

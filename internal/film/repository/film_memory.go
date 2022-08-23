@@ -2,8 +2,9 @@ package repository
 
 import (
 	"context"
-	"test/internal/models"
 	"time"
+
+	"github.com/igkostyuk/film/internal/models"
 )
 
 //go:generate mockgen -destination=../mocks/database/memory.go -package=mocks_database . MemoryDB

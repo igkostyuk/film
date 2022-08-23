@@ -6,8 +6,8 @@ import (
 
 	"go.uber.org/zap"
 
-	"test/internal/config"
-	"test/internal/models"
+	"github.com/igkostyuk/film/internal/config"
+	"github.com/igkostyuk/film/internal/models"
 )
 
 //go:generate mockgen -destination=../mocks/repository/cache.go -package=mocks_repository . Cache

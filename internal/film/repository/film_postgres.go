@@ -2,10 +2,11 @@ package repository
 
 import (
 	"context"
-	"test/internal/models"
 
 	"github.com/jmoiron/sqlx"
 	"github.com/pkg/errors"
+
+	"github.com/igkostyuk/film/internal/models"
 )
 
 // Film Repository

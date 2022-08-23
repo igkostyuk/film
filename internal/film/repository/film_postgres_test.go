@@ -8,7 +8,7 @@ import (
 	"github.com/jmoiron/sqlx"
 	"github.com/stretchr/testify/require"
 
-	"test/internal/models"
+	"github.com/igkostyuk/film/internal/models"
 )
 
 func Test_filmRepo_GetByTitle(t *testing.T) {

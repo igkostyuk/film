@@ -3,11 +3,12 @@ package repository
 import (
 	"context"
 	"encoding/json"
-	"test/internal/models"
 	"time"
 
 	"github.com/go-redis/redis/v8"
 	"github.com/pkg/errors"
+
+	"github.com/igkostyuk/film/internal/models"
 )
 
 // Film redis repository

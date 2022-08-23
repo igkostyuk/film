@@ -11,9 +11,9 @@ import (
 	"go.uber.org/zap"
 	"go.uber.org/zap/zaptest/observer"
 
-	"test/internal/config"
-	mock "test/internal/film/mocks/repository"
-	"test/internal/models"
+	"github.com/igkostyuk/film/internal/config"
+	mock "github.com/igkostyuk/film/internal/film/mocks/repository"
+	"github.com/igkostyuk/film/internal/models"
 )
 
 func Test_filmUC_GetByTitle(t *testing.T) {

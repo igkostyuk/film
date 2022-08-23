@@ -12,8 +12,8 @@ import (
 	"github.com/labstack/echo/v4"
 	"github.com/stretchr/testify/assert"
 
-	mock "test/internal/film/mocks/usecase"
-	"test/internal/models"
+	mock "github.com/igkostyuk/film/internal/film/mocks/usecase"
+	"github.com/igkostyuk/film/internal/models"
 )
 
 func TestFilmHandler_GetByTitle(t *testing.T) {

@@ -3,13 +3,14 @@ package repository
 import (
 	"context"
 	"log"
-	"test/internal/models"
 	"testing"
 	"time"
 
 	"github.com/alicebob/miniredis"
 	"github.com/go-redis/redis/v8"
 	"github.com/stretchr/testify/require"
+
+	"github.com/igkostyuk/film/internal/models"
 )
 
 func Test_filmRedisRepo(t *testing.T) {

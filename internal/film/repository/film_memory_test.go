@@ -8,8 +8,8 @@ import (
 	"github.com/golang/mock/gomock"
 	"github.com/stretchr/testify/assert"
 
-	mock "test/internal/film/mocks/database"
-	"test/internal/models"
+	mock "github.com/igkostyuk/film/internal/film/mocks/database"
+	"github.com/igkostyuk/film/internal/models"
 )
 
 func Test_filmMemoryRepo_Get(t *testing.T) {

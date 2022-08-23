@@ -1,9 +1,10 @@
 package config
 
 import (
-	"test/pkg/postgres"
-	"test/pkg/redis"
 	"time"
+
+	"github.com/igkostyuk/film/pkg/postgres"
+	"github.com/igkostyuk/film/pkg/redis"
 )
 
 type Config struct {
